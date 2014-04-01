@@ -10,7 +10,7 @@ $(call inherit-product, vendor/cm/config/common_full_phone.mk)
 
 PRODUCT_PACKAGES += \
     Firewall \
-    Focal
+    LegacyCamera
 
 # Inherit device configuration
 $(call inherit-product, device/xiaomi/mione_plus/full_mione_plus.mk)
