@@ -22,6 +22,9 @@ PRODUCT_BRAND := Xiaomi
 PRODUCT_MODEL := MI-ONE Plus
 PRODUCT_MANUFACTURER := Xiaomi
 
+# Set MK_BUILDTYPE
+MK_BUILDTYPE := RELEASE
+
 PRODUCT_CHARACTERISTICS := phone
 
 # Set build fingerprint / ID / Product Name etc.
