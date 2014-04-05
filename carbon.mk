@@ -5,8 +5,8 @@ PRODUCT_RELEASE_NAME := mione_plus
 TARGET_SCREEN_HEIGHT := 854
 TARGET_SCREEN_WIDTH := 480
 
-# Inherit some common CM stuff.
-$(call inherit-product, vendor/cm/config/common_full_phone.mk)
+# Inherit some common Carbon stuff.
+$(call inherit-product, vendor/carbon/config/common_full_phone.mk)
 
 PRODUCT_PACKAGES += \
     Firewall \
@@ -17,7 +17,7 @@ $(call inherit-product, device/xiaomi/mione_plus/full_mione_plus.mk)
 
 # Setup device specific product configuration.
 PRODUCT_DEVICE := mione_plus
-PRODUCT_NAME := cm_mione_plus
+PRODUCT_NAME := carbon_mione_plus
 PRODUCT_BRAND := Xiaomi
 PRODUCT_MODEL := MI-ONE Plus
 PRODUCT_MANUFACTURER := Xiaomi
