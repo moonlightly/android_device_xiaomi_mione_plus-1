@@ -78,5 +78,4 @@ BOARD_UMS_LUNFILE := "/sys/class/android_usb/android0/f_mass_storage/lun/file"
 TARGET_USE_CUSTOM_LUN_FILE_PATH := "/sys/class/android_usb/android0/f_mass_storage/lun/file"
 TARGET_RECOVERY_FSTAB := device/xiaomi/mione_plus/fstab.mione
 RECOVERY_FSTAB_VERSION := 2
-TARGET_RECOVERY_INITRC := device/xiaomi/mione_plus/ramdisk/init.recovery.mione_plus.rc
 
