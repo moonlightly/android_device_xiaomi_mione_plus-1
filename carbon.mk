@@ -6,7 +6,7 @@ TARGET_SCREEN_HEIGHT := 854
 TARGET_SCREEN_WIDTH := 480
 
 # Inherit some common Carbon stuff.
-$(call inherit-product, vendor/carbon/config/common_full_phone.mk)
+$(call inherit-product, vendor/carbon/config/common_phone.mk)
 
 PRODUCT_PACKAGES += \
     Firewall \
