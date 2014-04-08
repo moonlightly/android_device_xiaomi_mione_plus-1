@@ -90,6 +90,10 @@ PRODUCT_COPY_FILES += \
 PRODUCT_PROPERTY_OVERRIDES += \
     dalvik.vm.dexopt-flags=m=y
 
+# Default TimeZone
+PRODUCT_PROPERTY_OVERRIDES += \
+    persist.sys.timezone=Asia/Shanghai
+
 # we don't have selinux now
 PRODUCT_PROPERTY_OVERRIDES += \
     ro.build.selinux=0
