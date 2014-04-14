@@ -6,11 +6,5 @@
 /dev/block/platform/msm_sdcc.1/by-name/userdata    /data        ext4    noatime,nosuid,nodev,barrier=1,data=ordered,noauto_da_alloc  wait,check
 /dev/block/platform/msm_sdcc.1/by-name/boot        /boot        emmc    defaults                                                     defaults
 /dev/block/platform/msm_sdcc.1/by-name/recovery    /recovery    emmc    defaults                                                     defaults
-
-# SD Card
-/devices/platform/msm_sdcc.3/mmc_host    auto    auto    defaults    voldmanaged=sdcard0:auto,noemulatedsd
-
-# USB Disk
-/devices/platform/msm_hsusb_host.0/usb1    auto    auto    defaults    voldmanaged=usbdisk0:auto
                                                          
 
