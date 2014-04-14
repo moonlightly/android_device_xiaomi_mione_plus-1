@@ -45,6 +45,9 @@ PRODUCT_PACKAGES += \
     calibrator \
     hostapd
 
+PRODUCT_PACKAGES += \
+	  dualboot_init
+
 # Ramdisk files
 PRODUCT_COPY_FILES += \
     device/xiaomi/mione_plus/ramdisk/init.mione.rc:root/init.mione.rc \
