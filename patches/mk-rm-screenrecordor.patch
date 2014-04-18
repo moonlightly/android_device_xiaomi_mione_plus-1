@@ -1,0 +1,20 @@
+
+project vendor/mk/
+diff --git a/vendor/mk/config/common.mk b/vendor/mk/config/common.mk
+index 90117b9..137add5 100644
+--- a/vendor/mk/config/common.mk
++++ b/vendor/mk/config/common.mk
+@@ -167,13 +167,11 @@ PRODUCT_PACKAGES += \
+     MoKeeLauncher \
+     DSPManager \
+     libcyanogen-dsp \
+-    libscreenrecorder \
+     audio_effects.conf \
+     Apollo \
+     CMFileManager \
+     LockClock \
+     MoKeeHelper \
+-    MoKeeScreenRecorder \
+     MoKeeSetupWizard
+ 
+ # MK Hardware Abstraction Framework

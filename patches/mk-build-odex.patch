@@ -1,0 +1,23 @@
+
+project build/
+diff --git a/build/core/main.mk b/build/core/main.mk
+index 8d07a1f..4d03fc9 100644
+--- a/build/core/main.mk
++++ b/build/core/main.mk
+@@ -325,6 +325,16 @@ ifneq (,$(user_variant))
+     endif
+   endif
+ 
++  # ALL-ODEX
++  # Dalvik isn't built for non-Linux hosts).
++  ifneq (true,$(DISABLE_DEXPREOPT))
++    ifeq ($(user_variant),userdebug)
++      ifeq ($(HOST_OS),linux)
++        WITH_DEXPREOPT := true
++      endif
++    endif
++  endif
++
+   # Disallow mock locations by default for user builds
+   ADDITIONAL_DEFAULT_PROPERTIES += ro.allow.mock.location=0
+ 
