@@ -1,8 +1,6 @@
 # patches needed to build a flashable ROM for xiaomi mione
 # patches for cm-11.0 with 3.0.8 kernel
 
-* `cpu1_governor.patch`: support CPU governor setting on cpu1
-* `fix-settings-fc.patch`: fix Settings force close
 * `no_selinux.patch`: we don't have selinux
 * `xiaomi_mione_camera.patch`: needed by mione's camera HAL
 * `xiaomi_mione_wifi.patch`: needed to make wifi working on all mione
