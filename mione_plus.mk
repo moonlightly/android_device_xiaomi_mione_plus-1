@@ -90,7 +90,9 @@ PRODUCT_COPY_FILES += \
     frameworks/native/data/etc/android.hardware.bluetooth_le.xml:system/etc/permissions/android.hardware.bluetooth_le.xml \
 
 PRODUCT_PROPERTY_OVERRIDES += \
-    dalvik.vm.dexopt-flags=m=y
+    dalvik.vm.dexopt-flags=m=y \
+    ro.cdma.home.operator.numeric=46003 \
+    ro.telephony.default_cdma_sub=0
 
 # Default TimeZone
 PRODUCT_PROPERTY_OVERRIDES += \
