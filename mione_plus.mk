@@ -97,6 +97,10 @@ PRODUCT_PROPERTY_OVERRIDES += \
     ro.cdma.home.operator.numeric=46003 \
     ro.telephony.default_cdma_sub=0
 
+# Prebuilt apps
+PRODUCT_COPY_FILES += \
+    device/xiaomi/mione_plus/app/Music2.apk:system/third-app/Music2.apk
+
 # Default TimeZone
 PRODUCT_PROPERTY_OVERRIDES += \
     persist.sys.timezone=Asia/Shanghai
