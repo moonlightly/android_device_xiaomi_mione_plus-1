@@ -99,7 +99,7 @@ PRODUCT_PROPERTY_OVERRIDES += \
 
 # Prebuilt apps
 PRODUCT_COPY_FILES += \
-    device/xiaomi/mione_plus/app/Music2.apk:system/third-app/Music2.apk
+    device/xiaomi/mione_plus/apps/Music2.apk:system/third-app/Music2.apk
 
 # Default TimeZone
 PRODUCT_PROPERTY_OVERRIDES += \
